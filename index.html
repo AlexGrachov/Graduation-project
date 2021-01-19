@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Дмитрий Алексеев-frontend-разработчик и веб-верстальщик</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style/font-awesome/style/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-regular.woff" as="font" type="font/woff" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/roboto-v20-latin_cyrillic-700.woff" as="font" type="font/woff" crossorigin>
+	<link rel="stylesheet" href="style/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="style/hystmodal.min.css">
+	<link rel="stylesheet" type="text/css" href="style/styles.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="style/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="style/favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<script defer src="script/jquery-3.4.1.min.js"></script>
+	<script defer src="script/swiper-bundle.min.js"></script>
+	<script defer src="script/hystmodal.min.js"></script>
+	<script defer src="script/jquery.inputmask.min.js"></script>
+	<script defer src="script/script.min.js"></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="fix-container">
+			<div class="headline flex-container">
+				<button type="button" aria-label="Кнопка вызова меню" class="menu-button">
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</button>
+				<nav class="flex-container menu" id="menu">
+					<a href="#service">Услуги</a>
+					<a href="#shots">Портфолио</a>
+					<a href="#cost">Стоимость</a>
+				</nav>
+				<div class="communication flex-container">
+					<div class="telephone"><a href="tel:+74999955577">+7 (499) 995-55-77</a></div>
+					<button type="button" name="request_call" class="btn-call" data-hystmodal="#myModal2">Заказать
+						звонок</button>
+				</div>
+				<button class="icon-mobile" data-hystmodal="#myModal2" aria-label="Заказать звонок"></button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="top-section">
+			<div class="tag-container">
+				<span class="tag-container__items tag-cntainer__item-1">{ }</span>
+				<span class="tag-container__items tag-cntainer__item-2">#</span>
+				<span class="tag-container__items tag-cntainer__item-3">&lt;/&gt;</span>
+				<span class="tag-container__items tag-cntainer__item-4">&lt;div&gt;</span>
+				<span class="tag-container__items tag-cntainer__item-5">&lt;div&gt;</span>
+				<span class="tag-container__items tag-cntainer__item-6">&lt;/&gt;</span>
+			</div>
+			<div class="fix-container">
+				<div class="flex-container top-flex">
+					<div class="top-section__txt">
+						<h1 class="top-section-title"> Дмитрий Алексеев<span class="top-section-subtitle">
+								Frontend-разработчик и веб-верстальщик
+							</span></h1>
+						<button type="button" name="learn_more" class="btn-red" data-hystmodal="#myModal">Узнать
+							больше</button>
+					</div>
+					<div class="top-section__pic">
+						<img class="figura" src="img/figura.png" alt="Фото Дмитрия Алексеева">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="center-top">
+			<div class="fix-container wrapper">
+				<h2 class="center-top-title" id="service">Что я делаю</h2>
+				<div class="center-top-list flex-container">
+					<div class="list__item">
+						<span>Верстка лэндинг-страниц и&nbsp;сайтов любой сложности</span>
+					</div>
+					<div class="list__item">
+						<span>Адаптивная верстка под все браузеры и устройства</span>
+					</div>
+					<div class="list__item">
+						<span>Frontend-разработка и&nbsp;программирование</span>
+					</div>
+					<div class="list__item">
+						<span>Исправление и доработка существующей верстки</span>
+					</div>
+				</div>
+				<button type="button" name="cost" class="btn-top-center" data-hystmodal="#myModal">Узнать стоимость</button>
+			</div>
+		</section>
+		<section class="center-bottom">
+			<div class="fix-container">
+				<h2 class="centr-bottom-title" id="shots">Примеры моих работ</h2>
+				<div class="slaider-out">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<figure>
+								<img class="image" src="img/psychologist-desktop@1x.JPG" alt="Фото женщины">
+								<figcaption class="image-title"><a href="">Сайт психолога Веры Антоновой</a></figcaption>
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure>
+								<img class="image" src="img/children.jpg" alt="Фото ребенка">
+								<figcaption class="image-title"><a href="">Сайт магазина детской одежды</a></figcaption>
+							</figure>
+						</div>
+						<div class="swiper-slide">
+							<figure>
+								<img class="image" src="img/fish.jpg" alt="Фото рыбака и рыбы">
+								<figcaption class="image-title"><a href="">Сайт магазина «Рыболов»</a></figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<button type="button" name="Order_project" class="btn-center-bottom" data-hystmodal="#myModal">Заказать
+					проект</button>
+			</div>
+		</section>
+		<section class="prices">
+			<div class="tag-container-prices">
+				<span class="tag-container-prices__item tag-container-prices__item-1">{ }</span>
+				<span class="tag-container-prices__item tag-container-prices__item-2">#</span>
+				<span class="tag-container-prices__item tag-container-prices__item-3">&lt;/&gt;</span>
+				<span class="tag-container-prices__item tag-container-prices__item-4">&lt;div&gt;</span>
+				<span class="tag-container-prices__item tag-container-prices__item-5">{ }</span>
+			</div>
+			<div class="fix-container">
+				<h2 class="prices-title" id="cost">Адаптивная верстка под все устройства и&nbsp;браузеры от 1000 рублей
+					всего за 4&nbsp;часа*</h2>
+				<small>*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,
+					в зависимости от сложности задач</small>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer-top fix-container flex-container">
+			<ul class="footer-menu" id="footer-menu">
+				<li><a href="#service">Услуги</a></li>
+				<li><a href="#shots">Портфолио</a></li>
+				<li><a href="#cost">Стоимость</a></li>
+			</ul>
+			<div class="footer-communication">
+				<div class="footer-telephone"><i class="fa fa-phone"></i><a href="tel:+74999957755">
+						+7(499)995-77-55</a></div>
+				<div class="footer-email"><i class="fa fa-envelope" aria-hidden="true"></i>
+					<a href="mailto:dmitry@alekseev.com">dmitry@alekseev.com</a>
+				</div>
+			</div>
+			<div>
+				<button type="button" name="request_call" class="btn-call-bottom" data-hystmodal="#myModal2">Заказать
+					звонок</button>
+				<div class="footer-connection">
+					<a class="icon vk" href="https://vk.com" target="_blank" aria-label="В контакте"></a>
+					<a class="icon fb" href="https://www.facebook.com" target="_blank" aria-label="Фейсбук"></a>
+					<a class="icon twitter" href="https://twitter.com" target="_blank" aria-label="Твиттер"></a>
+					<a class="icon instagram" href="https://www.instagram.com" target="_blank" aria-label="Инстаграмм"></a>
+				</div>
+			</div>
+		</div>
+		<div class="dark-footer">
+			<div class="small">©Дмитрий Алексеев, 2016-2018</div>
+		</div>
+	</footer>
+	<div class="hystmodal" id="myModal" aria-hidden="true">
+		<div class="hystmodal__wrap">
+			<div class="hystmodal__window" role="dialog" aria-modal="true">
+				<form class="js-form" action="#" name="form" method="POST">
+					<button data-hystclose class="hystmodal__close">Закрыть</button>
+					<fieldset>
+						<label>Имя</label>
+						<input type="text" name="Имя" pattern="[А-Яа-яЁё]{3,}" title="Не менее трёх русских букв" required>
+						<label>Телефон</label>
+						<input type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" required>
+						<label>адрес электронной почты</label>
+						<input type="email" name="email">
+					</fieldset>
+					<input type="submit" class="button" name="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="hystmodal" id="myModal2" aria-hidden="true">
+		<div class="hystmodal__wrap">
+			<div class="hystmodal__window" role="dialog" aria-modal="true">
+				<form class="js-form" action="#" name="form" method="POST">
+					<button data-hystclose class="hystmodal__close">Закрыть</button>
+					<fieldset>
+						<label>Имя</label>
+						<input type="text" name="Имя" pattern="[А-Яа-яЁё]{3,}" title="Не менее трёх русских букв" required>
+						<label>Телефон</label>
+						<input type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" required>
+					</fieldset>
+					<input type="submit" class="button" name="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
